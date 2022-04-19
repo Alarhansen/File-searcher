@@ -1,0 +1,15 @@
+C:\Users\alexa\source\repos\File searcher\File searcher\bin\Debug\File searcher.exe.config
+C:\Users\alexa\source\repos\File searcher\File searcher\bin\Debug\File searcher.exe
+C:\Users\alexa\source\repos\File searcher\File searcher\bin\Debug\File searcher.pdb
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File searcher.csprojAssemblyReference.cache
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\MainWindow.g.cs
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\App.g.cs
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File searcher_MarkupCompile.cache
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File searcher_MarkupCompile.lref
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\MainWindow.baml
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File searcher.g.resources
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File_searcher.Properties.Resources.resources
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File searcher.csproj.GenerateResource.cache
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File searcher.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File searcher.exe
+C:\Users\alexa\source\repos\File searcher\File searcher\obj\Debug\File searcher.pdb
