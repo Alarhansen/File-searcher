@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:File_searcher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="FileSearcher" Height="450" Width="800">
 
 
 
@@ -14,7 +14,7 @@
             <ColumnDefinition Width="113*"/>
             <ColumnDefinition Width="679*"/>
         </Grid.ColumnDefinitions>
-        <TextBox Name="FolderInputTextBox" HorizontalAlignment="Left" Height="23" Margin="1,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="447" Grid.Column="1"/>
+        <TextBox Name="FolderInputTextBox" HorizontalAlignment="Left" Height="23" Margin="1,30,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="447" Grid.Column="1"/>
         <Button Name="SearchButton" Content="Søg" HorizontalAlignment="Left" Margin="538,33,0,0" VerticalAlignment="Top" Width="75" Click="SearchButton_Click" Grid.Column="1"/>
         <Button Name="BrowserButton"  Content="Browser" HorizontalAlignment="Left" Margin="22,33,0,0" VerticalAlignment="Top" Width="75" Click="BrowserButton_Click"/>
         <TextBox Name="SearchPatternTextBox" HorizontalAlignment="Left" Height="23" Margin="453,30,0,0" TextWrapping="Wrap" Text="*.*" VerticalAlignment="Top" Width="80" Grid.Column="1"/>
@@ -22,11 +22,20 @@
         <Label Content="Search Pattern" HorizontalAlignment="Left" Margin="453,10,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <TextBox Name="SearchFor" HorizontalAlignment="Left" Height="23" Margin="1,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="447" Grid.Column="1"/>
 
-        <ListView Name="FileListView" HorizontalAlignment="Left" Height="303" Margin="1,106,0,0" VerticalAlignment="Top" Width="532" SelectionChanged="ListView_SelectionChanged" Grid.Column="1">
-            
-            
-            
-            
+        <ListView Name="FileListView" HorizontalAlignment="Left" Height="303" Margin="1,106,0,0" VerticalAlignment="Top" Width="532"  Grid.Column="1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                       
+                        <Button Click="Button_Click" Content="{Binding FileName}"/>
+
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+
+
         </ListView>
         <Label Content="Search for word:" HorizontalAlignment="Left" Margin="1,52,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <Button Name="ExitButton" Content="Exit" HorizontalAlignment="Left" Margin="580,372,0,0" VerticalAlignment="Top" Width="75" Click="ExitButton_Click" Grid.Column="1"/>
